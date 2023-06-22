@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border </title>
+    <style>
+         *{
+            margin: 0;
+            
+            box-sizing: border-box;
+        }
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            float: left;
+            margin: 1%;
+        }
+        .bg1{
+            border: 10px;
+            border-style:solid;
+            border-color: blue;
+        }
+        .bg2{
+            border: 20px;
+            border-style: double;
+            border-color: brown;
+        }
+        .bg3{
+            border: 10px inset;
+            
+        }
+        .bg4{
+            border: 2px royalblue dashed;
+        }
+        .bg5{
+            border-left: 30px red solid;
+
+        }
+        .bg6{
+            background-color: whitesmoke;
+            /* border-color: whitesmoke solid; */
+            border-top: 30px royalblue solid;
+            border-right: 30px red solid;
+            border-bottom: 30px teal solid;
+            border-left: 30px orange solid;
+        }
+        .bg7{
+            background-color: whitesmoke;
+            border-top: 30px  transparent solid;
+            border-right: 30px  red solid;
+            border-bottom: 30px  transparent solid;
+            border-left: 30px  gray solid;
+        }
+        .bg8 {
+            border-radius: 50%;
+            border-radius: 50% 50% 0px;
+            background-color: whitesmoke;
+            border-top: 10px royalblue solid;
+            border-right: 10px red solid;
+            border-bottom: 10px teal solid;
+            border-left: 10px orange solid;
+        }
+        .bg9{
+            border-radius: 50%;
+            border-radius:50% 50%  50% 0px;
+            background-color: whitesmoke;
+            border-top: 10px royalblue solid;
+            border-right: 10px red solid;
+            border-bottom: 10px teal solid;
+            border-left: 10px orange solid;
+        }
+        .bg10{
+            border-radius: 50%;
+            border-radius:50% 50%  0px 0px;
+            background-color: whitesmoke;
+            border-top: 10px royalblue solid;
+            border-right: 10px red solid;
+            border-bottom: 60px teal solid;
+            border-left: 10px orange solid;
+
+        }
+        .bg11{
+            border-radius: 50%;
+            border-radius:50% 0px 50% 50%;
+            background-color: whitesmoke;
+            border-top: 10px royalblue solid;
+            border-right: 10px red solid;
+            border-bottom: 10px teal solid;
+            border-left: 10px orange solid;
+
+
+        }
+    </style>
+    <link rel="stylesheet" href="border.css">
+</head>
+<body>
+    <div class="bg1"></div>
+    <div class="bg2"></div>
+    <div class="bg3"></div>
+    <div class="bg4"></div>
+    <div class="bg5"></div>
+    <div class="bg6"></div>
+    <div class="bg7"></div>
+    <div class="bg8"></div>
+    <div class="bg9"></div>
+    <div class="bg10"></div>
+    <div class="bg11"></div>
+</body>
+</html>
